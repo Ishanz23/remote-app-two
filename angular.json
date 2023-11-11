@@ -11,7 +11,7 @@
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "mfe-two",
       "architect": {
         "build": {
           "builder": "ngx-build-plus:browser",
