@@ -8,6 +8,7 @@ module.exports = withModuleFederationPlugin({
 
   exposes: {
     "./Module": "./src/app/app.module.ts",
+    "./HighlightDirective": "./src/app/highlight.directive.ts",
   },
   shared: share({
     "@angular/core": {
